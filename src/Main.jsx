@@ -1,7 +1,8 @@
 import React from 'react'
+import { MatrixHandler } from './components/MatrixHandler'
 
 export  function Main() {
   return (
-    <main></main>
+    <main><MatrixHandler></MatrixHandler></main>
   )
 }
